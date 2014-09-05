@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		3824CC8719BA44F900B7EA42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3824CC8619BA44F900B7EA42 /* AppDelegate.swift */; };
 		3824CC8A19BA44F900B7EA42 /* Enso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3824CC8819BA44F900B7EA42 /* Enso.xcdatamodeld */; };
-		3824CC8C19BA44F900B7EA42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3824CC8B19BA44F900B7EA42 /* ViewController.swift */; };
+		3824CC8C19BA44F900B7EA42 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3824CC8B19BA44F900B7EA42 /* MainViewController.swift */; };
 		3824CC8F19BA44F900B7EA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3824CC8D19BA44F900B7EA42 /* Main.storyboard */; };
 		3824CC9119BA44F900B7EA42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3824CC9019BA44F900B7EA42 /* Images.xcassets */; };
 		3824CC9D19BA44F900B7EA42 /* EnsoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3824CC9C19BA44F900B7EA42 /* EnsoTests.swift */; };
+		38A1783619BA79F000B9F9D3 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A1783519BA79F000B9F9D3 /* Crashlytics.framework */; };
+		38A1783A19BA7AFE00B9F9D3 /* Haiku.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1783919BA7AFE00B9F9D3 /* Haiku.m */; };
+		38A1783D19BA7C2300B9F9D3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1783C19BA7C2300B9F9D3 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +33,17 @@
 		3824CC8519BA44F900B7EA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3824CC8619BA44F900B7EA42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3824CC8919BA44F900B7EA42 /* Enso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Enso.xcdatamodel; sourceTree = "<group>"; };
-		3824CC8B19BA44F900B7EA42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3824CC8B19BA44F900B7EA42 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3824CC8E19BA44F900B7EA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3824CC9019BA44F900B7EA42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3824CC9619BA44F900B7EA42 /* EnsoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnsoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3824CC9B19BA44F900B7EA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3824CC9C19BA44F900B7EA42 /* EnsoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnsoTests.swift; sourceTree = "<group>"; };
+		38A1783519BA79F000B9F9D3 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		38A1783719BA7AFE00B9F9D3 /* Enso-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enso-Bridging-Header.h"; sourceTree = "<group>"; };
+		38A1783819BA7AFE00B9F9D3 /* Haiku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haiku.h; sourceTree = "<group>"; };
+		38A1783919BA7AFE00B9F9D3 /* Haiku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Haiku.m; sourceTree = "<group>"; };
+		38A1783C19BA7C2300B9F9D3 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A1783619BA79F000B9F9D3 /* Crashlytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +68,7 @@
 		3824CC7819BA44F900B7EA42 = {
 			isa = PBXGroup;
 			children = (
+				38A1783519BA79F000B9F9D3 /* Crashlytics.framework */,
 				3824CC8319BA44F900B7EA42 /* Enso */,
 				3824CC9919BA44F900B7EA42 /* EnsoTests */,
 				3824CC8219BA44F900B7EA42 /* Products */,
@@ -78,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				3824CC8619BA44F900B7EA42 /* AppDelegate.swift */,
+				38A1783719BA7AFE00B9F9D3 /* Enso-Bridging-Header.h */,
 				3824CCA619BA44FE00B7EA42 /* Model */,
 				3824CCA719BA450200B7EA42 /* Controller */,
 				3824CCA819BA450700B7EA42 /* View */,
@@ -116,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				3824CC8819BA44F900B7EA42 /* Enso.xcdatamodeld */,
+				38A1783819BA7AFE00B9F9D3 /* Haiku.h */,
+				38A1783919BA7AFE00B9F9D3 /* Haiku.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -123,7 +136,8 @@
 		3824CCA719BA450200B7EA42 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3824CC8B19BA44F900B7EA42 /* ViewController.swift */,
+				3824CC8B19BA44F900B7EA42 /* MainViewController.swift */,
+				38A1783B19BA7C0B00B9F9D3 /* Controllers */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -136,6 +150,14 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		38A1783B19BA7C0B00B9F9D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38A1783C19BA7C2300B9F9D3 /* DataController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +168,7 @@
 				3824CC7D19BA44F900B7EA42 /* Sources */,
 				3824CC7E19BA44F900B7EA42 /* Frameworks */,
 				3824CC7F19BA44F900B7EA42 /* Resources */,
+				38A1783419BA79D900B9F9D3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -230,12 +253,30 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38A1783419BA79D900B9F9D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run b27867868d56ac0aa5505130348bb038aa2afb64 fadf119c5dec828e8f7753bb64901e769e4bc0d1488ef0d22294e5c92aca52b0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3824CC7D19BA44F900B7EA42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3824CC8C19BA44F900B7EA42 /* ViewController.swift in Sources */,
+				38A1783D19BA7C2300B9F9D3 /* DataController.swift in Sources */,
+				38A1783A19BA7AFE00B9F9D3 /* Haiku.m in Sources */,
+				3824CC8C19BA44F900B7EA42 /* MainViewController.swift in Sources */,
 				3824CC8A19BA44F900B7EA42 /* Enso.xcdatamodeld in Sources */,
 				3824CC8719BA44F900B7EA42 /* AppDelegate.swift in Sources */,
 			);
@@ -355,9 +396,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Enso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Enso/Enso-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -366,9 +414,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Enso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Enso/Enso-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -425,6 +479,7 @@
 				3824CCA219BA44F900B7EA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3824CCA319BA44F900B7EA42 /* Build configuration list for PBXNativeTarget "EnsoTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +488,7 @@
 				3824CCA519BA44F900B7EA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
