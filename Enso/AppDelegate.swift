@@ -14,6 +14,9 @@ import Crashlytics
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
+    var dataController = DataController()
+    var networkController = NetworkController()
+    var photosController = EnsoPhotosController()
 
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {

@@ -33,6 +33,8 @@ class MainViewController: UIViewController {
         self.mainScrollView.bounces = true
         self.mainScrollView.alwaysBounceHorizontal = true
         self.view.addSubview(self.mainScrollView)
+        
+        
     }
 
 

@@ -1,5 +1,5 @@
 //
-//  DataController.swift
+//  EnsoPhotosController.swift
 //  Enso
 //
 //  Created by Leonardo Lee on 9/5/14.
@@ -7,10 +7,7 @@
 //
 
 import Foundation
-import CoreData
 
-class DataController {
-    
-    init(){}
+class EnsoPhotosController {
     
 }

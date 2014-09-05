@@ -16,6 +16,11 @@
 		38A1783619BA79F000B9F9D3 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A1783519BA79F000B9F9D3 /* Crashlytics.framework */; };
 		38A1783A19BA7AFE00B9F9D3 /* Haiku.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1783919BA7AFE00B9F9D3 /* Haiku.m */; };
 		38A1783D19BA7C2300B9F9D3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1783C19BA7C2300B9F9D3 /* DataController.swift */; };
+		38A1783F19BA7D5500B9F9D3 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1783E19BA7D5500B9F9D3 /* NetworkController.swift */; };
+		38A1784119BA7DB600B9F9D3 /* EnsoPhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1784019BA7DB600B9F9D3 /* EnsoPhotosController.swift */; };
+		38A1784319BA7E2E00B9F9D3 /* HaikuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1784219BA7E2E00B9F9D3 /* HaikuViewController.swift */; };
+		38A1784519BA7E3A00B9F9D3 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1784419BA7E3A00B9F9D3 /* MediaViewController.swift */; };
+		38A1784719BA7E4900B9F9D3 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1784619BA7E4900B9F9D3 /* SocialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		38A1783819BA7AFE00B9F9D3 /* Haiku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haiku.h; sourceTree = "<group>"; };
 		38A1783919BA7AFE00B9F9D3 /* Haiku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Haiku.m; sourceTree = "<group>"; };
 		38A1783C19BA7C2300B9F9D3 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		38A1783E19BA7D5500B9F9D3 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		38A1784019BA7DB600B9F9D3 /* EnsoPhotosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsoPhotosController.swift; sourceTree = "<group>"; };
+		38A1784219BA7E2E00B9F9D3 /* HaikuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaikuViewController.swift; sourceTree = "<group>"; };
+		38A1784419BA7E3A00B9F9D3 /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		38A1784619BA7E4900B9F9D3 /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +147,9 @@
 			isa = PBXGroup;
 			children = (
 				3824CC8B19BA44F900B7EA42 /* MainViewController.swift */,
+				38A1784219BA7E2E00B9F9D3 /* HaikuViewController.swift */,
+				38A1784419BA7E3A00B9F9D3 /* MediaViewController.swift */,
+				38A1784619BA7E4900B9F9D3 /* SocialViewController.swift */,
 				38A1783B19BA7C0B00B9F9D3 /* Controllers */,
 			);
 			name = Controller;
@@ -154,6 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				38A1783C19BA7C2300B9F9D3 /* DataController.swift */,
+				38A1783E19BA7D5500B9F9D3 /* NetworkController.swift */,
+				38A1784019BA7DB600B9F9D3 /* EnsoPhotosController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -275,9 +290,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A1783D19BA7C2300B9F9D3 /* DataController.swift in Sources */,
+				38A1784119BA7DB600B9F9D3 /* EnsoPhotosController.swift in Sources */,
 				38A1783A19BA7AFE00B9F9D3 /* Haiku.m in Sources */,
+				38A1783F19BA7D5500B9F9D3 /* NetworkController.swift in Sources */,
 				3824CC8C19BA44F900B7EA42 /* MainViewController.swift in Sources */,
+				38A1784719BA7E4900B9F9D3 /* SocialViewController.swift in Sources */,
+				38A1784319BA7E2E00B9F9D3 /* HaikuViewController.swift in Sources */,
 				3824CC8A19BA44F900B7EA42 /* Enso.xcdatamodeld in Sources */,
+				38A1784519BA7E3A00B9F9D3 /* MediaViewController.swift in Sources */,
 				3824CC8719BA44F900B7EA42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
