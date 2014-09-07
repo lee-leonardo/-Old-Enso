@@ -13,6 +13,10 @@
 		3824CC8F19BA44F900B7EA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3824CC8D19BA44F900B7EA42 /* Main.storyboard */; };
 		3824CC9119BA44F900B7EA42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3824CC9019BA44F900B7EA42 /* Images.xcassets */; };
 		3824CC9D19BA44F900B7EA42 /* EnsoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3824CC9C19BA44F900B7EA42 /* EnsoTests.swift */; };
+		3898791919BBAAC8004C5357 /* Haiku+HaikuExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3898791819BBAAC8004C5357 /* Haiku+HaikuExtension.m */; };
+		3898792319BBEAFE004C5357 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3898792219BBEAFE004C5357 /* ShareViewController.swift */; };
+		3898792519BBEAFE004C5357 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3898792419BBEAFE004C5357 /* MainInterface.storyboard */; };
+		3898792819BBEAFE004C5357 /* EnsoShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3898791E19BBEAFE004C5357 /* EnsoShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		38A1783619BA79F000B9F9D3 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A1783519BA79F000B9F9D3 /* Crashlytics.framework */; };
 		38A1783A19BA7AFE00B9F9D3 /* Haiku.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1783919BA7AFE00B9F9D3 /* Haiku.m */; };
 		38A1783D19BA7C2300B9F9D3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1783C19BA7C2300B9F9D3 /* DataController.swift */; };
@@ -31,7 +35,35 @@
 			remoteGlobalIDString = 3824CC8019BA44F900B7EA42;
 			remoteInfo = Enso;
 		};
+		3898792619BBEAFE004C5357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3824CC7919BA44F900B7EA42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3898791D19BBEAFE004C5357;
+			remoteInfo = EnsoShareExtension;
+		};
+		3898792919BBEAFE004C5357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3824CC7919BA44F900B7EA42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3898791D19BBEAFE004C5357;
+			remoteInfo = EnsoShareExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3898792E19BBEAFE004C5357 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3898792819BBEAFE004C5357 /* EnsoShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3824CC8119BA44F900B7EA42 /* Enso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enso.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +76,12 @@
 		3824CC9619BA44F900B7EA42 /* EnsoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnsoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3824CC9B19BA44F900B7EA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3824CC9C19BA44F900B7EA42 /* EnsoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnsoTests.swift; sourceTree = "<group>"; };
+		3898791719BBAAC8004C5357 /* Haiku+HaikuExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Haiku+HaikuExtension.h"; sourceTree = "<group>"; };
+		3898791819BBAAC8004C5357 /* Haiku+HaikuExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Haiku+HaikuExtension.m"; sourceTree = "<group>"; };
+		3898791E19BBEAFE004C5357 /* EnsoShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EnsoShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3898792119BBEAFE004C5357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3898792219BBEAFE004C5357 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		3898792419BBEAFE004C5357 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		38A1783519BA79F000B9F9D3 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		38A1783719BA7AFE00B9F9D3 /* Enso-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enso-Bridging-Header.h"; sourceTree = "<group>"; };
 		38A1783819BA7AFE00B9F9D3 /* Haiku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haiku.h; sourceTree = "<group>"; };
@@ -72,6 +110,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3898791B19BBEAFE004C5357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,6 +126,7 @@
 				38A1783519BA79F000B9F9D3 /* Crashlytics.framework */,
 				3824CC8319BA44F900B7EA42 /* Enso */,
 				3824CC9919BA44F900B7EA42 /* EnsoTests */,
+				3898791F19BBEAFE004C5357 /* EnsoShareExtension */,
 				3824CC8219BA44F900B7EA42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +136,7 @@
 			children = (
 				3824CC8119BA44F900B7EA42 /* Enso.app */,
 				3824CC9619BA44F900B7EA42 /* EnsoTests.xctest */,
+				3898791E19BBEAFE004C5357 /* EnsoShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +186,8 @@
 				3824CC8819BA44F900B7EA42 /* Enso.xcdatamodeld */,
 				38A1783819BA7AFE00B9F9D3 /* Haiku.h */,
 				38A1783919BA7AFE00B9F9D3 /* Haiku.m */,
+				3898791719BBAAC8004C5357 /* Haiku+HaikuExtension.h */,
+				3898791819BBAAC8004C5357 /* Haiku+HaikuExtension.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -163,6 +212,24 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		3898791F19BBEAFE004C5357 /* EnsoShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3898792219BBEAFE004C5357 /* ShareViewController.swift */,
+				3898792419BBEAFE004C5357 /* MainInterface.storyboard */,
+				3898792019BBEAFE004C5357 /* Supporting Files */,
+			);
+			path = EnsoShareExtension;
+			sourceTree = "<group>";
+		};
+		3898792019BBEAFE004C5357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3898792119BBEAFE004C5357 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		38A1783B19BA7C0B00B9F9D3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,10 +251,13 @@
 				3824CC7E19BA44F900B7EA42 /* Frameworks */,
 				3824CC7F19BA44F900B7EA42 /* Resources */,
 				38A1783419BA79D900B9F9D3 /* ShellScript */,
+				3898792E19BBEAFE004C5357 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3898792719BBEAFE004C5357 /* PBXTargetDependency */,
+				3898792A19BBEAFE004C5357 /* PBXTargetDependency */,
 			);
 			name = Enso;
 			productName = Enso;
@@ -212,6 +282,23 @@
 			productReference = 3824CC9619BA44F900B7EA42 /* EnsoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		3898791D19BBEAFE004C5357 /* EnsoShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3898792B19BBEAFE004C5357 /* Build configuration list for PBXNativeTarget "EnsoShareExtension" */;
+			buildPhases = (
+				3898791A19BBEAFE004C5357 /* Sources */,
+				3898791B19BBEAFE004C5357 /* Frameworks */,
+				3898791C19BBEAFE004C5357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnsoShareExtension;
+			productName = EnsoShareExtension;
+			productReference = 3898791E19BBEAFE004C5357 /* EnsoShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,6 +314,9 @@
 					3824CC9519BA44F900B7EA42 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 3824CC8019BA44F900B7EA42;
+					};
+					3898791D19BBEAFE004C5357 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -245,6 +335,7 @@
 			targets = (
 				3824CC8019BA44F900B7EA42 /* Enso */,
 				3824CC9519BA44F900B7EA42 /* EnsoTests */,
+				3898791D19BBEAFE004C5357 /* EnsoShareExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +354,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3898791C19BBEAFE004C5357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3898792519BBEAFE004C5357 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +394,7 @@
 				38A1783F19BA7D5500B9F9D3 /* NetworkController.swift in Sources */,
 				3824CC8C19BA44F900B7EA42 /* MainViewController.swift in Sources */,
 				38A1784719BA7E4900B9F9D3 /* SocialViewController.swift in Sources */,
+				3898791919BBAAC8004C5357 /* Haiku+HaikuExtension.m in Sources */,
 				38A1784319BA7E2E00B9F9D3 /* HaikuViewController.swift in Sources */,
 				3824CC8A19BA44F900B7EA42 /* Enso.xcdatamodeld in Sources */,
 				38A1784519BA7E3A00B9F9D3 /* MediaViewController.swift in Sources */,
@@ -310,6 +410,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3898791A19BBEAFE004C5357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3898792319BBEAFE004C5357 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -317,6 +425,16 @@
 			isa = PBXTargetDependency;
 			target = 3824CC8019BA44F900B7EA42 /* Enso */;
 			targetProxy = 3824CC9719BA44F900B7EA42 /* PBXContainerItemProxy */;
+		};
+		3898792719BBEAFE004C5357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3898791D19BBEAFE004C5357 /* EnsoShareExtension */;
+			targetProxy = 3898792619BBEAFE004C5357 /* PBXContainerItemProxy */;
+		};
+		3898792A19BBEAFE004C5357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3898791D19BBEAFE004C5357 /* EnsoShareExtension */;
+			targetProxy = 3898792919BBEAFE004C5357 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -480,6 +598,30 @@
 			};
 			name = Release;
 		};
+		3898792C19BBEAFE004C5357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnsoShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3898792D19BBEAFE004C5357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnsoShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -509,6 +651,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		3898792B19BBEAFE004C5357 /* Build configuration list for PBXNativeTarget "EnsoShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3898792C19BBEAFE004C5357 /* Debug */,
+				3898792D19BBEAFE004C5357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
