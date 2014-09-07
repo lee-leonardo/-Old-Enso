@@ -14,14 +14,16 @@ import Crashlytics
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
-    var dataController = DataController()
-    var networkController = NetworkController()
-    var photosController = EnsoPhotosController()
+    var dataController : DataController?
+    var networkController : NetworkController?
+    var photosController : EnsoPhotosController?
 
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         
         Crashlytics.startWithAPIKey("b27867868d56ac0aa5505130348bb038aa2afb64")
+        
+        self.dataController = DataController()
 
         return true
     }

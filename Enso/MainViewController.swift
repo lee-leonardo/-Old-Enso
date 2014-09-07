@@ -10,9 +10,9 @@ import UIKit
 
 class MainViewController: UIViewController {
     
-    var mainScrollView : UIScrollView!
     var appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
-                            
+    var mainScrollView : UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -54,13 +54,13 @@ class MainViewController: UIViewController {
         
         //Delegates
         
-        var firstX = 0.0
+        var firstX = 0
         var secondX = Int(self.view.frame.width)
         var thirdX = Int(self.view.frame.width * 2)
         var standardWidth = Int(self.view.frame.width)
         var standardHeight = Int(self.view.frame.height)
         
-//        haikuController.view.frame = CGRect(x: firstX, y: 0, width: standardWidth, height: standardHeight)
+        haikuController.view.frame = CGRect(x: firstX, y: 0, width: standardWidth, height: standardHeight)
         mediaController.view.frame = CGRect(x: secondX, y: 0, width: standardWidth, height: standardHeight)
         socialController.view.frame = CGRect(x: thirdX, y: 0, width: standardWidth, height: standardHeight)
         
@@ -76,6 +76,8 @@ class MainViewController: UIViewController {
         haikuController.didMoveToParentViewController(self)
         mediaController.didMoveToParentViewController(self)
         socialController.didMoveToParentViewController(self)
+        
+        
         
         
     }

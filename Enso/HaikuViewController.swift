@@ -2,14 +2,14 @@
 //  HaikuViewController.swift
 //  Enso
 //
-//  Created by Leonardo Lee on 9/5/14.
+//  Created by Leonardo Lee on 9/6/14.
 //  Copyright (c) 2014 Leonardo Lee. All rights reserved.
 //
 
 import UIKit
 
 class HaikuViewController: UIViewController {
-
+    
     @IBOutlet weak var haikuField: UITextView!
     
     override func viewDidLoad() {
@@ -33,8 +33,8 @@ class HaikuViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
-//MARK: Touch methods
+    
+    //MARK: Touch methods
     override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
         for control in self.view.subviews {
             if let theControl = control as? UITextView {
@@ -43,7 +43,7 @@ class HaikuViewController: UIViewController {
         }
     }
     
-//MARK: HaikuController methods
+    //MARK: HaikuController methods
     func randomHaiku() {
         var random = arc4random_uniform(10)
         var randomHaiku : String
@@ -56,6 +56,6 @@ class HaikuViewController: UIViewController {
         }
     }
     
-//MARK: UITextView
+    //MARK: UITextView
     
 }
