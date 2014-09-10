@@ -8,6 +8,7 @@
 
 import UIKit
 
+//A Secondary task, work on the haiku aspect of the project and add the photos with photo extension and such.
 class MediaViewController: UIViewController {
 
     override func viewDidLoad() {

@@ -8,6 +8,7 @@
 
 import UIKit
 
+//Need to finish this part up, I need to have the haiku functionality working fully I believe. The Share extension is the best to couple with it at the moment. Core Data functionality and saving can be added ASAP.
 class HaikuViewController: UIViewController {
     
     @IBOutlet weak var haikuField: UITextView!

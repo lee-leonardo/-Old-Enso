@@ -9,6 +9,7 @@
 import UIKit
 import Social
 
+//A part of the project that needs to be completed. Add this as an overlay to the application.
 class SocialViewController: UIViewController {
     
 //    var interactionController = UIDocumentInteractionController()

@@ -26,6 +26,7 @@
 		38A1784119BA7DB600B9F9D3 /* EnsoPhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1784019BA7DB600B9F9D3 /* EnsoPhotosController.swift */; };
 		38A1784519BA7E3A00B9F9D3 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1784419BA7E3A00B9F9D3 /* MediaViewController.swift */; };
 		38A1784719BA7E4900B9F9D3 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1784619BA7E4900B9F9D3 /* SocialViewController.swift */; };
+		38ED9D6719BE651B00BC2241 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED9D6619BE651B00BC2241 /* LocationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		38A1784019BA7DB600B9F9D3 /* EnsoPhotosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsoPhotosController.swift; sourceTree = "<group>"; };
 		38A1784419BA7E3A00B9F9D3 /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
 		38A1784619BA7E4900B9F9D3 /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		38ED9D6619BE651B00BC2241 /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				38A1783C19BA7C2300B9F9D3 /* DataController.swift */,
+				38ED9D6619BE651B00BC2241 /* LocationController.swift */,
 				38A1783E19BA7D5500B9F9D3 /* NetworkController.swift */,
 				38A1784019BA7DB600B9F9D3 /* EnsoPhotosController.swift */,
 			);
@@ -396,6 +399,7 @@
 				38A1784119BA7DB600B9F9D3 /* EnsoPhotosController.swift in Sources */,
 				3898793219BC06DD004C5357 /* HaikuViewController.swift in Sources */,
 				38A1783A19BA7AFE00B9F9D3 /* Haiku.m in Sources */,
+				38ED9D6719BE651B00BC2241 /* LocationController.swift in Sources */,
 				38A1783F19BA7D5500B9F9D3 /* NetworkController.swift in Sources */,
 				3824CC8C19BA44F900B7EA42 /* MainViewController.swift in Sources */,
 				38A1784719BA7E4900B9F9D3 /* SocialViewController.swift in Sources */,
@@ -663,6 +667,7 @@
 				3898792D19BBEAFE004C5357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
