@@ -48,9 +48,9 @@ class MainViewController: UIViewController {
         self.mainScrollView.alwaysBounceHorizontal = true
         self.view.addSubview(self.mainScrollView)
         
-        var haikuController = self.storyboard.instantiateViewControllerWithIdentifier("Write") as HaikuViewController
-        var mediaController = self.storyboard.instantiateViewControllerWithIdentifier("Media") as MediaViewController
-        var socialController = self.storyboard.instantiateViewControllerWithIdentifier("Social") as SocialViewController
+        var haikuController = self.storyboard!.instantiateViewControllerWithIdentifier("Write") as HaikuViewController
+        var mediaController = self.storyboard!.instantiateViewControllerWithIdentifier("Media") as MediaViewController
+        var socialController = self.storyboard!.instantiateViewControllerWithIdentifier("Social") as SocialViewController
         
         //Delegates
         
@@ -63,7 +63,6 @@ class MainViewController: UIViewController {
         haikuController.view.frame = CGRect(x: firstX, y: 0, width: standardWidth, height: standardHeight)
         mediaController.view.frame = CGRect(x: secondX, y: 0, width: standardWidth, height: standardHeight)
         socialController.view.frame = CGRect(x: thirdX, y: 0, width: standardWidth, height: standardHeight)
-        
         
         self.addChildViewController(haikuController)
         self.addChildViewController(mediaController)

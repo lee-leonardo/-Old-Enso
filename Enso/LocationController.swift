@@ -22,14 +22,13 @@ import CoreLocation
 //}
 
 //Need to fix this up.
-class LocationController: CLLocationManagerDelegate {
+class LocationController: NSObject, CLLocationManagerDelegate {
     var locationManager : CLLocationManager
     
-    init() {
-
+    override init() {
         self.locationManager = CLLocationManager()
+        super.init()
     }
-    
     
     func locationManager(manager: CLLocationManager!, didVisit visit: CLVisit!) {
         //Implement code to take the CLVisit times and log out what was used and why.

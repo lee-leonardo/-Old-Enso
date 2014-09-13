@@ -36,7 +36,7 @@ class HaikuViewController: UIViewController {
     }
     
     //MARK: Touch methods
-    override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         for control in self.view.subviews {
             if let theControl = control as? UITextView {
                 theControl.resignFirstResponder()
