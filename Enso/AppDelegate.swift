@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreData
-import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,8 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
-        
-        Crashlytics.startWithAPIKey("b27867868d56ac0aa5505130348bb038aa2afb64")
         
         self.dataController = DataController()
 
