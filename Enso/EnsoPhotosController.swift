@@ -22,4 +22,8 @@ class EnsoPhotosController {
         self.photoManager = PHCachingImageManager()
     }
     
+    func fetchAsset(asset : PHAsset) {
+        
+    }
+    
 }
