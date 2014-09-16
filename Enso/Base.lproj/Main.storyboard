@@ -33,23 +33,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ort-HS-Krr">
-                                <rect key="frame" x="100" y="100" width="400" height="400"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This is supposed to be replaced with a pre written Haiku..." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ort-HS-Krr">
+                                <rect key="frame" x="0.0" y="80" width="600" height="320"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="400" id="ix7-uH-qFR"/>
-                                    <constraint firstAttribute="height" constant="400" id="uvz-oc-I3y"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="Ort-HS-Krr" secondAttribute="centerY" id="6UQ-Ik-g2k"/>
-                            <constraint firstAttribute="centerX" secondItem="Ort-HS-Krr" secondAttribute="centerX" id="90T-ax-CBz"/>
+                            <constraint firstAttribute="centerX" secondItem="Ort-HS-Krr" secondAttribute="centerX" id="5C1-Rk-iOe"/>
+                            <constraint firstAttribute="centerY" secondItem="Ort-HS-Krr" secondAttribute="centerY" id="fc2-tI-Oqs"/>
+                            <constraint firstItem="Ldm-gJ-fFJ" firstAttribute="top" secondItem="Ort-HS-Krr" secondAttribute="bottom" constant="200" id="h0K-we-5Ub"/>
+                            <constraint firstItem="Ort-HS-Krr" firstAttribute="top" secondItem="oUg-AH-DpH" secondAttribute="bottom" constant="60" id="l8H-tw-vYU"/>
+                            <constraint firstItem="Ort-HS-Krr" firstAttribute="leading" secondItem="zhr-4d-gwG" secondAttribute="leading" id="p6W-ES-Z8e"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="fc2-tI-Oqs"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="haikuField" destination="Ort-HS-Krr" id="qWh-qf-BYr"/>
@@ -57,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XlU-x1-Y8a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="783" y="-524"/>
+            <point key="canvasLocation" x="783" y="-495"/>
         </scene>
         <!--Media View Controller-->
         <scene sceneID="mA7-oM-cND">

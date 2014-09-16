@@ -51,5 +51,10 @@ class SocialViewController: UIViewController {
             self.twitter.setInitialText("Twitter initial text")
         }
     }
+    
+    func setupOtherShareControllers() {
+        //I need to figure which pod is best used to do what I want. Show media sites to share to.
+        
+    }
 
 }
