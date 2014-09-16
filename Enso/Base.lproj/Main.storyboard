@@ -20,6 +20,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="147" y="-495"/>
         </scene>
         <!--Haiku View Controller-->
         <scene sceneID="Cgw-d5-DN9">
@@ -62,6 +63,47 @@
             </objects>
             <point key="canvasLocation" x="783" y="-495"/>
         </scene>
+        <!--List View Controller-->
+        <scene sceneID="JZA-x8-9d0">
+            <objects>
+                <viewController storyboardIdentifier="HaikuList" id="zbd-Wn-jHr" customClass="ListViewController" customModule="Enso" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WqY-dx-jNi"/>
+                        <viewControllerLayoutGuide type="bottom" id="7V2-K4-YcP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jjm-rg-n42">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="i9M-Yu-YTc">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HaikuCell" id="bkI-YD-f88">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bkI-YD-f88" id="lPD-ok-V0j">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="i9M-Yu-YTc" secondAttribute="trailing" id="ICf-ta-k0g"/>
+                            <constraint firstItem="i9M-Yu-YTc" firstAttribute="leading" secondItem="Jjm-rg-n42" secondAttribute="leading" id="KL5-tZ-9R5"/>
+                            <constraint firstItem="7V2-K4-YcP" firstAttribute="top" secondItem="i9M-Yu-YTc" secondAttribute="bottom" id="niP-ao-OcK"/>
+                            <constraint firstItem="i9M-Yu-YTc" firstAttribute="top" secondItem="Jjm-rg-n42" secondAttribute="top" id="rnf-xZ-o8I"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="haikuListTableView" destination="i9M-Yu-YTc" id="pdA-dw-THk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T9Q-Kt-jck" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="165"/>
+        </scene>
         <!--Media View Controller-->
         <scene sceneID="mA7-oM-cND">
             <objects>
@@ -78,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="El2-E7-AD1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="783" y="136"/>
+            <point key="canvasLocation" x="1411" y="-495"/>
         </scene>
         <!--Social View Controller-->
         <scene sceneID="r0l-uR-Owq">
@@ -96,7 +138,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kme-Zh-A5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="783" y="800"/>
+            <point key="canvasLocation" x="2039" y="-495"/>
         </scene>
     </scenes>
 </document>
